@@ -9,11 +9,11 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-wmata-realtime-snapshot',
-    version='0.1',
+    version='0.2',
     packages=['wmata_realtime_snapshot'],
     include_package_data=True,
     license='BSD License',
-    description='A simple Django app to conduct Web-based polls.',
+    description='A point-in-time mirror of Washington DC Metro\'s realtime train schedule',
     long_description=README,
     url='https://github.com/m3brown/django-wmata-realtime-snapshot',
     author='Michael Brown',
