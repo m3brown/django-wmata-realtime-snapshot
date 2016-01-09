@@ -11,6 +11,7 @@ setup(
     name='django-wmata-realtime-snapshot',
     version='0.2',
     packages=['wmata_realtime_snapshot'],
+    package_data={'wmata_realtime_snapshot': ['tests/*.py']},
     include_package_data=True,
     license='BSD License',
     description='A point-in-time mirror of Washington DC Metro\'s realtime train schedule',
